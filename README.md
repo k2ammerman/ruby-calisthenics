@@ -56,9 +56,9 @@ basic string processing.  You can start from the template
 ## Part A: Palindromes
 
 A palindrome is a word or phrase that reads the same forwards as
-backwards, ignoring case, punctuation, and nonword characters.  (A
-"nonword character" is defined for our purposes as "a character that
-Ruby regular expressions would treat as a nonword character".) 
+backwards, ignoring case, punctuation, and non-word characters.  (A
+"non-word character" is defined for our purposes as "a character that
+Ruby regular expressions would treat as a non-word character".) 
 
 You will write a method `palindrome?` that returns true iff its
 receiver is a palindrome.
@@ -90,7 +90,7 @@ of times each word appears:
     "To be or not to be"  # => {"to"=>2, "be"=>2, "or"=>1, "not"=>1}
 
 Your solution shouldn't use for-loops, but iterators like `each` are
-permitted. As before, nonwords and case should be ignored. A word is
+permitted. As before, non-words and case should be ignored. A word is
 defined as a string of characters between word boundaries. 
 
 ## Part C:  Anagrams
