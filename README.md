@@ -7,7 +7,7 @@ using heavily.
 
 While we provide an explanation of how your code should work in this
 handout, you should get accustomed to the idea that the true
-specification is in the test files!
+specification is in the test files!!
 
 Therefore, we suggest you work on this assignment using `autotest`,
 which automatically re-runs all the RSpec tests each time you make
